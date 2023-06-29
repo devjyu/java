@@ -1,3 +1,4 @@
+package ch00;
 public class Study03 {
     public static void main(String[] args) {
         // 문자는 더하면 합쳐진다

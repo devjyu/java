@@ -1,3 +1,4 @@
+package ch00;
 public class Study02 {
     // 한 프로그램 내에 여러 main함수가 있을 수 없다.
     public static void main(String[] args) {
