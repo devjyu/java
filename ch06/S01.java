@@ -30,12 +30,12 @@ class Cat {
     // 길고양이
     // 일부 데이터만 받을 수 있다.
     // 받지 않은 데이터는 개발자가 직접 초기화 해줘야 한다.
-    // public Cat(int age){
-    //     this.name = "길냥이";
-    //     this.age = age;
+    public Cat(int age){
+        this.name = "길냥이";
+        this.age = age;
 
-    //     System.out.println(this.name + "가 태어났다.");
-    // }
+        System.out.println(this.name + "가 태어났다.");
+    }
 
     // public Cat(){
     //     this.name = "길냥이";
@@ -59,6 +59,7 @@ class Cat {
     }
 
     //메소드 (객체의 기능)
+    // 생성된 인스턴스에서 사용할 수 있는 기능
     public void cry() {
         System.out.println("야옹");
     }
@@ -72,11 +73,14 @@ public class S01 {
         // 오브젝트는 상상할 수 있지만 실체화 되지 않은 것
         Cat cat;
 
+        
         // new를 통해서 오브젝트에 인스턴스를 넣어 준다.
         // 생성자가 요구하는 내용대로 작성해야한다.
         cat = new Cat("야옹이", 2);
+        
+        cat.cry();
 
-        // new Cat(1);new Cat(1);
+        new Cat(1).cry();
 
         // 문제
         // 이름이 '길냥이'이고 나이가 1살인 고양이를 생성하시오.
