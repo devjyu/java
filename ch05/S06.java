@@ -21,7 +21,6 @@ public class S06 {
             for (int j = 0; j < intArray[i].length; j++) {
                 System.out.println(intArray[i][j]);
             }
-            System.out.println("테스트");
         }
     }
 }
