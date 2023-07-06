@@ -1,4 +1,4 @@
-package ch08;
+
 
 // 직접 예외를 만들 수 있다
 // Exception 또는 RunTimeException을 상속하는 것이 일반적이다
