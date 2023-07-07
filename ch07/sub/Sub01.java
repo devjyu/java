@@ -1,4 +1,4 @@
-package sub;
+package ch07.sub;
 
 public class Sub01 {
     // 객체지향에서 데이터는 객체만 볼 수 있는게 기본적이다.
