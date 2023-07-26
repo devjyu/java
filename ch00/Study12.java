@@ -10,7 +10,6 @@ class Sun{
     public static Sun getSun(){
         if (sun == null) {
             // 객체를 한번만 생성
-
             sun = new Sun();
         }
         return sun;
